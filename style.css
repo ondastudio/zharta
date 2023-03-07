@@ -1,0 +1,74 @@
+.splide__track {
+  overflow: visible;
+}
+
+.tabs-menu-wrapper.is--sticky {
+  pointer-events: none;
+}
+
+.tabs-menu {
+  pointer-events: auto !important;
+}
+
+/* slider css*/
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.rangeslider {
+  -webkit-appearance: none; /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 1px; /* Specified height */
+  background: #ff3c82; /* Grey background */
+  border-bottom-color: #ff3c82 !important;
+  outline: none; /* Remove outline */ /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: 0.2s; /* 0.2 seconds transition on hover */
+  transition: opacity 0.2s;
+  margin-right: 8em;
+}
+
+.rangeslider.is--borrow {
+  background: #3ccde0; /* Grey background */
+  border-bottom-color: #3ccde0 !important;
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.rangeslider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  border-radius: 10px;
+  width: 14em;
+  height: 14em;
+  background-image: url("https://uploads-ssl.webflow.com/61e957a40dc4fc46b9c50dd3/61fd015008337e25c5e730c6_Ellipse%2022.svg");
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer; /* Cursor on hover */
+}
+
+.rangeslider.is--borrow::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  border-radius: 10px;
+  width: 14em;
+  height: 14em;
+  background-image: url("https://uploads-ssl.webflow.com/61e957a40dc4fc46b9c50dd3/6203f7cef640bc06c9e8993f_Ellipse%2022.svg");
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer; /* Cursor on hover */
+}
+
+.rangeslider::-moz-range-thumb {
+  width: 14em; /* Set a specific slider handle width */
+  height: 14em; /* Slider handle height */
+  background: #ffffff; /* Green background */
+  opacity: 1;
+  cursor: pointer; /* Cursor on hover */
+}
+
+.is--Cool .Cats {
+  top: -100%;
+}
